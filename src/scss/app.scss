@@ -31,13 +31,14 @@ html {
   }
   .card {
     margin-right: 30px;
+  
+    width: map-get($widget-sizes, 'large');
+    
     .hot {
       color: orangered;
       font-weight: bold;
     }
 
-    .big {
-      width: map-get($widget-size, 'large');
-    }
+    
   }
 }
