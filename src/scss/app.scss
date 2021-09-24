@@ -21,6 +21,10 @@ html {
   background: $background;
 }
 
+@function size($type) {
+  @return map-get($widget-sizes, $type);
+}
+
 .main {
   height: 100vh;
   align-items: center;
@@ -33,8 +37,8 @@ html {
   .card {
     margin-right: 30px;
   
-    width: map-get($widget-sizes, 'large');
-    height: map-get($widget-sizes, 'small' );
+    width: size(large);
+    height: size(small);
     
     .hot {
       color: orangered;
