@@ -1,4 +1,6 @@
 @charset "utf-8";
+@use "sass:map";
+
 @import "~bulma/bulma";
 
 
@@ -13,7 +15,6 @@
 
 /* Mixins, helpers and functions */
 @import "base/mixins";
-@use "sass:map";
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
