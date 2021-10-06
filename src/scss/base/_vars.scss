@@ -3,6 +3,14 @@
 */
 @use "sass:map";
 
-$widget-sizes: ('small': 200px, 'normal': 400px, 'large': 600px);
+$small: 200px;
+$normal: 400px;
+$large: 600px;
+
+$widget-sizes: (
+    "small": $small,
+    "normal": $normal,
+    "large": $large
+);
 
 $primary: #0c4bfa;

@@ -21,13 +21,11 @@ html {
   background: $background;
 }
 
-@function size($type) {
-  @return map-get($widget-sizes, $type);
-}
+
 
 .main {
   height: 100vh;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   flex-flow: column;
   padding: 50px;
@@ -37,8 +35,8 @@ html {
   .card {
     margin-right: 30px;
   
-    width: size(large);
-    height: size(small);
+    width: map-get($widget-sizes, 'large' );
+    height: map-get($widget-sizes, 'normal' );
     
     .hot {
       color: orangered;
