@@ -37,7 +37,7 @@ html {
     margin-right: 30px;
   
     width: map-get($widget-sizes, 'large' );
-    height: map-get($widget-sizes, 'normal' );
+    height: map-get($widget-sizes, 'small' );
     
     .hot {
       color: orangered;
